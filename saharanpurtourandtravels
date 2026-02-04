@@ -1,0 +1,17 @@
+<section id="booking">
+    <h2>Book Your Ride</h2>
+    <form action="mailto:saharanpurtourandtravels@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="Name" placeholder="Aapka Naam" required>
+        <input type="tel" name="Phone" placeholder="Mobile Number" required>
+        <select name="CarType">
+            <option value="Sedan">Sedan (Dzire/Etios)</option>
+            <option value="SUV">SUV (Innova/Ertiga)</option>
+            <option value="Tempo">Tempo Traveller</option>
+        </select>
+        <input type="text" name="From" placeholder="Kahan se (Pickup)">
+        <input type="text" name="To" placeholder="Kahan tak (Destination)">
+        <button type="submit">Enquiry Bhejein</button>
+    </form>
+</section>
+
+
